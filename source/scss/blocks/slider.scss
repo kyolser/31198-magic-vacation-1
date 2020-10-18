@@ -115,7 +115,7 @@
   line-height: 2rem;
   opacity: 0;
   transform: translate(20px,0);
-  transition: 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
 
   @media (min-width: $stop-scaling) {
     margin-top: 36px;

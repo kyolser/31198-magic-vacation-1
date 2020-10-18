@@ -250,9 +250,8 @@
       width: 0px;
       height: 2px;
       background-color: $c-light;
-      /*display: none;*/
       left: 0;
-      transition:  0.3s;
+      transition:  width 0.3s;
       overflow: hidden;
 
 
@@ -271,7 +270,6 @@
 
     &.active {
       &::after {
-        display: block;
         width: 100%;
       }
     }

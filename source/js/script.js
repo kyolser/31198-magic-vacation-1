@@ -21,3 +21,13 @@ social();
 
 const fullPageScroll = new FullPageScroll();
 fullPageScroll.init();
+
+/*
+document.querySelector(`.intro__message`).addEventListener('click', function() { 
+	if (this.classList.contains('active')) {
+     this.classList.remove(`active`);
+    } else {
+      this.classList.add(`active`);
+    }
+});
+*/
